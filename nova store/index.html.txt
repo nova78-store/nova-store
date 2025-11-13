@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Store</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f8fbff;
+      color: #333;
+    }
+
+    header {
+      background-color: #b3dbff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      max-width: 300px;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      color: #007bff;
+    }
+
+    .product-card p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    .buy-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #b3dbff;
+      text-align: center;
+      padding: 15px;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Nova Store
+  </header>
+
+  <section>
+    <h2>Yeni Sezon Kıyafetler</h2>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x300?text=Siyah-Beyaz+Eşofman+Takımı" alt="Siyah Beyaz Eşofman Takımı" />
+      <h3>Siyah-Beyaz Eşofman Takımı</h3>
+      <p>Fiyat: <strong>990 TL</strong></p>
+      <a href="https://shopier.com/nova-store" target="_blank" class="buy-btn">Satın Al</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nova Store | Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
